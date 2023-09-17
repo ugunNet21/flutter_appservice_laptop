@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dicodingone/shared/themes.dart';
 
 class TrackPage extends StatelessWidget {
+  const TrackPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Center(
           child: Text(
-            'Status Layanan Laptop',
+            'Status Layanan',
             style: whiteTextStyle.copyWith(
               fontSize: 18,
               fontWeight: medium,

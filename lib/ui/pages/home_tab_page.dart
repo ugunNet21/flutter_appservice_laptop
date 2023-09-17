@@ -17,8 +17,8 @@ class _HomeTabPageState extends State<HomeTabPage> {
 
   final List<Widget> _pages = [
     const HomeDashboardPage(),
-    ChatPage(),
-     TrackPage(),
+    const ChatPage(),
+    const TrackPage(),
     const AccountPage(),
   ];
   @override

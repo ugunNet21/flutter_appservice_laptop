@@ -18,7 +18,7 @@ class _ChatPageState extends State<ChatPage> {
       appBar: AppBar(
         title: Center(
           child: Text(
-            'Chat Layanan Laptop',
+            'Chat',
             style: whiteTextStyle.copyWith(
               fontSize: 18,
             ),
