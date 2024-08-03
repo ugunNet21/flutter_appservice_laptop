@@ -31,7 +31,7 @@ class _ServicePageState extends State<ServicePage> {
               const SizedBox(height: 20),
               TextField(
                 controller: _damageController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Sebutkan kerusakannya',
                   border: OutlineInputBorder(),
                 ),
@@ -39,7 +39,7 @@ class _ServicePageState extends State<ServicePage> {
               const SizedBox(height: 10),
               TextField(
                 controller: _costEstimateController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Estimasi biaya',
                   border: OutlineInputBorder(),
                 ),

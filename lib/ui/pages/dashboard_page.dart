@@ -107,7 +107,7 @@ Widget buildCarousel() {
       options: CarouselOptions(
         height: 120.0, // Tinggi carousel
         autoPlay: true, // Menyalakan autoplay
-        autoPlayInterval: Duration(seconds: 3), // Interval pergeseran
+        autoPlayInterval: const Duration(seconds: 3), // Interval pergeseran
       ),
       items: const [
         HomeCarousel(
