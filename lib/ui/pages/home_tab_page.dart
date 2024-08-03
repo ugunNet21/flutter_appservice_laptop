@@ -4,6 +4,7 @@ import 'package:flutter_dicodingone/ui/pages/account_page.dart';
 import 'package:flutter_dicodingone/ui/pages/chat_page.dart';
 import 'package:flutter_dicodingone/ui/pages/dashboard_page.dart';
 import 'package:flutter_dicodingone/ui/pages/track_page.dart';
+import 'package:flutter_dicodingone/ui/pages/service_page.dart'; 
 
 class HomeTabPage extends StatefulWidget {
   const HomeTabPage({super.key});
@@ -19,8 +20,11 @@ class _HomeTabPageState extends State<HomeTabPage> {
     const HomeDashboardPage(),
     const ChatPage(),
     const TrackPage(),
+      const ServicePage(),
     const AccountPage(),
+  
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -68,10 +72,15 @@ class _HomeTabPageState extends State<HomeTabPage> {
               icon: Icon(Icons.track_changes, color: blackColor),
               label: 'Track',
             ),
+            BottomNavigationBarItem( // Tambahkan item untuk halaman layanan
+              icon: Icon(Icons.build, color: blackColor),
+              label: 'Layanan',
+            ),
             BottomNavigationBarItem(
               icon: Icon(Icons.account_circle, color: blackColor),
               label: 'Account',
             ),
+            
           ],
         ),
       ),
